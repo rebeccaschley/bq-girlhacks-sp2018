@@ -1,0 +1,68 @@
+body {
+	font: 400 1.4rem "Avenir", sans-serif;
+	line-height: 1.8;
+	color: #212121;
+	background-color: #FAFAFA;
+}
+
+.navbar {
+	background-color: transparent;
+}
+
+.navbar li a, .navbar .navbar-brand {
+	color: #fff !important;
+}
+
+.jumbotron {
+	background-image: url("jumbotron2.png");
+	background-position: center; 
+	color: #fff;
+	padding-top: 98px;
+}
+
+.jumbotron form {
+	background-color: white;
+	color: black;
+	max-width: 800px;
+	margin: auto;
+	border-radius: 4px;
+	text-align: left;
+	padding: 15px 25px;
+}
+
+.jumbotron input {
+	padding: 8px;
+	border-radius: 4px;
+	border: 1px solid rgb(221, 221, 221);
+	width: 100%;
+}
+
+.jumbotron input[type="date"] {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.jumbotron [class*="col-"] {
+	padding: 0 3px;
+}
+
+.vis-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+label {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+input:checked + label {
+  border-color: red;
+}
